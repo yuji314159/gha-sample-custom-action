@@ -1,0 +1,5 @@
+name: Hello action
+description: This is a hello world action
+runs:
+  using: node20
+  main: index.js
