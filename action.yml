@@ -1,5 +1,16 @@
 name: Hello action
 description: This is a hello world action
+
+inputs:
+  name:
+    description: your name
+    required: true
+    default: World
+
+outputs:
+  message:
+    description: greeting message
+
 runs:
   using: node20
   main: index.js
